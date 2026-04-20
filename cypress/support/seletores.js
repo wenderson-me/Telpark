@@ -10,7 +10,6 @@ export const SELETORES = {
   },
   principal: {
     botaoAceitarCookies: '#onetrust-accept-btn-handler',
-    messenger: '[aria-label="Open Intercom Messenger"]',
     logout: '#aLogout',
     cabecalho: '#mainHeader',
     abaVeiculos: '.veiculos'

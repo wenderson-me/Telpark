@@ -25,9 +25,9 @@ class VehicleAsserts {
 
     validarModalExclusao() {
         const textoEsperado = [
-            'Delete vehicle',
-            'You will no longer be able to park with this vehicle',
-            'Are you sure you want to remove it?'
+            'Remover veículo',
+            'Deixará de ser possível estacionar com este veículo',
+            'Tem a certeza que o pretende remover?'
         ];
 
         cy.get(this.sel.popupApagar).should('be.visible');

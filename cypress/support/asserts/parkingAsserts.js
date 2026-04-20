@@ -9,7 +9,6 @@ class ParkingAsserts {
         cy.url('include', '/parking_pass');
         cy.get(this.sel.cabecalho).should('be.visible');
         cy.get(this.sel.logout).should('be.visible');
-        cy.get(this.sel.messenger).should('be.visible');
     }
 }
 

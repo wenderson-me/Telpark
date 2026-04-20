@@ -2,7 +2,7 @@ import { gerarCredenciaisInvalidas } from '../../support/utils/factories'
 import loginPage from '../../support/pages/login/login'
 
 const credenciaisInvalidas = gerarCredenciaisInvalidas();
-const mensagemErro = 'Invalid username or password.';
+const mensagemErro = 'Nome de utilizador ou palavra-passe inválida.';
 
 describe('Login', () => {
 
