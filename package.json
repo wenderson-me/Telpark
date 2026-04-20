@@ -1,0 +1,19 @@
+{
+  "name": "telpark-test-automation",
+  "version": "1.0.0",
+  "description": "Testes automatizados para o portal Telpark",
+  "scripts": {
+    "test:headless": "cypress run",
+    "test:open": "cypress open",
+    "test:debug": "cypress run --headed --no-exit",
+    "test:login": "cypress run --spec \"cypress/e2e/login.cy.js\"",
+    "test:vehicle": "cypress run --spec \"cypress/e2e/vehicle.cy.js\""
+  },
+  "author": {
+   "name": "Wenderson Monteiro"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^15.14.0"
+  }
+}
